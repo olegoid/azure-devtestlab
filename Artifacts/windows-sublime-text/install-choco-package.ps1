@@ -6,7 +6,7 @@
 [CmdletBinding()]
 param(
     # Space-, comma- or semicolon-separated list of Chocolatey packages.
-    [string] $Packages,
+    [string] $Packages = 'sublimetext3',
 
     # Boolean indicating if we should allow empty checksums. Default to true to match previous artifact functionality despite security
     [bool] $AllowEmptyChecksums = $true,
