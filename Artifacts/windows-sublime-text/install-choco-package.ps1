@@ -100,7 +100,7 @@ function Install-Packages
     [CmdletBinding()]
     param(
         [string] $ChocoExePath,
-       "sublimetext3"
+       'sublimetext3'
     )
 
     $Packages = $Packages.split(',; ', [StringSplitOptions]::RemoveEmptyEntries)
